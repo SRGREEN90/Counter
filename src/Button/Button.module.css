@@ -1,0 +1,23 @@
+.button {
+    height: 45px;
+    width: 80px;
+    background-color: aqua;
+
+    border-radius: 5px;
+    padding: 1px 2px;
+    color: midnightblue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.button_content {
+    border-top: #010e64 15px;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+

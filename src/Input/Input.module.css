@@ -1,0 +1,15 @@
+.input {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    height: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.danger{
+background-color: red;
+}

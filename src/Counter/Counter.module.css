@@ -1,0 +1,211 @@
+.body{
+    height: 100px;
+    weight: 100px;
+    /*background: url("https://phonoteka.org/uploads/posts/2021-04/1619542763_18-phonoteka_org-p-monotonnii-fon-dlya-fotoshopa-20.jpg");*/
+display: flex;
+  justify-content: center;
+}
+
+.body_wrap {
+    border: 15px solid lightblue;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #373741;
+}
+
+.btn_wrap{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 0 10px;
+    height: 10px;
+    border-right: 4px solid #51e1d0;
+    border-bottom: 4px solid #51e1d0;
+    border-top: 4px solid #51e1d0;
+    border-left: 4px solid #51e1d0;
+}
+
+.counter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+
+.title {
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    color: #010e64;
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+
+}
+
+.dis {
+    width: 300px;
+    height: 100px;
+    background-color: #f8e28b;
+    color: red;
+    font-size: xxx-large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+}
+.danger{
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100px;*/
+/*    background: url("https://phonoteka.org/uploads/posts/2021-04/1619542763_18-phonoteka_org-p-monotonnii-fon-dlya-fotoshopa-20.jpg");*/
+
+/*    border-bottom-color: white;*/
+/*    color: white;*/
+/*    border: solid 1px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.body_wrap {*/
+/*    border: 2px solid white;*/
+/*    padding: 5px;*/
+/*    width: 100px;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.counter {*/
+/*    background-color: white;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    border-radius: 5px;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+
+/*.title {*/
+/*    color: black;*/
+/*}*/
+
+/*.dis {*/
+/*    color: red;*/
+/*}*/
+
+/*.button_content {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    border-radius: 5px;*/
+/*    padding: 2px;*/
+/*    color: white;*/
+/*    border: solid 2px;*/
+/*}*/
+/*.button {*/
+/*    border-radius: 5px;*/
+/*    padding: 1px 2px;*/
+/*    color: midnightblue;*/
+/*    border: none;*/
+/*    width: 60%;*/
+/*}*/
+
+/*.button:first-of-type {*/
+/*    margin-right: 5px;*/
+/*    width: 40%;*/
+/*}*/
+/*.btn_color1 {*/
+/*    color: red;*/
+/*}*/
+
+
+/*.btn_color2 {*/
+/*    color: green;*/
+/*}*/
