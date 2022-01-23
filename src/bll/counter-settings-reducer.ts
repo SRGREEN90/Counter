@@ -11,24 +11,29 @@ export const SET_VALUE_FROM_LOCAL_STORAGE = 'SG/SET_VALUE_FROM_LOCAL_STORAGE='
 
 
 const initialState = {
-    value: 0
+    startValue: 0,
+    maxValue: 10
+
 }
 type initialStateType = typeof initialState
 
 export const counterSettingsReducer = (state: initialStateType = initialState, action: MainType): initialStateType => {
     switch (action.type) {
         case INC_START_COUNTER_SETTINGS:
-            return {...state, value: state.value + 1}
+            return {...state, startValue: state.startValue + 1}
         case DEC_START_COUNTER_SETTINGS:
-           return {...state, value: state.value - 1}
+           return {...state, startValue: state.startValue - 1}
 
         case INC_MAX_COUNTER_SETTINGS:
-            return {...state, value: state.value + 1}
+            return {...state, maxValue: state.maxValue + 1}
         case DEC_MAX_COUNTER_SETTINGS:
-           return {...state, value: state.value - 1}
+           return {...state, maxValue: state.maxValue - 1}
 
         case SET_VALUE_FROM_LOCAL_STORAGE:
-            return {...state, value: action.value}
+            return {...state,
+                startValue: action.startValue,
+                maxValue: action. maxValue
+            }
 
         default:
             return state
@@ -49,13 +54,14 @@ type setValueFromLocalStorageACType = ReturnType<typeof setValueFromLocalStorage
 
 
 
-export const incStartCounterSettingsAC = () => ({type: INC_START_COUNTER_SETTINGS} as const)
+export const incStartCounterSettingsAC = () => ({type: INC_START_COUNTER_SETTINGS, } as const)
 export const decStartCounterSettingsAC = () => ({type: DEC_START_COUNTER_SETTINGS}as const)
 
 export const incMaxCounterSettingsAC = () => ({type: INC_MAX_COUNTER_SETTINGS}as const)
 export const decMaxCounterSettingsAC = () => ({type: DEC_MAX_COUNTER_SETTINGS}as const)
 
-export const setValueFromLocalStorageAC = (value: number) => ({type: SET_VALUE_FROM_LOCAL_STORAGE, value}as const)
+export const setValueFromLocalStorageAC = (maxValue: number, startValue: number ) =>
+    ({type: SET_VALUE_FROM_LOCAL_STORAGE, startValue, maxValue }as const)
 
 //THUNK
 

@@ -2,14 +2,14 @@ import React from "react";
 import s from "../Button/Button.module.css";
 
 type PropsType = {
-    title: number
+
     maxValue: number
     callback: () => void
     buttonName: string
     disabled: boolean
 
 }
-const Button = ({title, maxValue, callback ,disabled, buttonName, ...props }: PropsType) => {
+const Button = ({ maxValue, callback ,disabled, buttonName, ...props }: PropsType) => {
 
 
     return (

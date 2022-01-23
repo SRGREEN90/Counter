@@ -24,13 +24,11 @@ function Counter(props: PropsType) {
 
                      <Button buttonName={'inc'}
                              disabled={props.title >= props.maxValue }
-                             title={props.title}
                              maxValue={props.maxValue}
                              callback={props.increment}
                      />
 
                      <Button buttonName={'reset'}
-                             title={props.title}
                              maxValue={props.maxValue}
                              callback={props.reset}
                              disabled={ props.title === 0}

@@ -12,7 +12,6 @@ type PropsType = {
     decStart: () => void
     setToLocalStorage: () => void
     maxValue: number
-    title: number
     disabledButton: () => void
     err: boolean
 }
@@ -70,7 +69,6 @@ function CounterSettings(props: PropsType) {
 
                     <Button callback={props.setToLocalStorage}
                             buttonName={'SET'}
-                            title={props.title}
                             maxValue={props.maxValue}
                             disabled={props.titleStart < 0 || props.titleStart === props.titleMax}
                     />
